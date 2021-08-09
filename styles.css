@@ -1,0 +1,126 @@
+.btn-primary {
+  background-color: #bf9000;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+.form__submit-btn {
+  background-color: #1c4587;
+  text-align: center;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1c4587;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+nav h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "courier new";
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+}
+.hero h1 {
+  font-family: Arial;
+  color: #1c4587;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.hero h2 {
+  font-family: "courier new";
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.hero button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave_back {
+  height: 50vh;
+  width: 100vw;
+  background-color: #f3f4f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 30vw;
+  height: 50vh;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+}
+.form__name {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+.form .form__name-input {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  width: 200px;
+  height: 30px;
+}
+.form__email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form .form__email-input {
+  margin-bottom: 40px;
+  border: 2px solid black;
+  width: 200px;
+  height: 30px;
+}
+.form__submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}

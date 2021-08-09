@@ -1,0 +1,12 @@
+.btn-primary {
+  background-color: #bf9000;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+.form__submit-btn {
+  background-color: #1c4587;
+  text-align: center;
+  color: white;
+}

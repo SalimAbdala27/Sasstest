@@ -1,0 +1,116 @@
+@import "./assets/styles/variables.scss";
+@import './assets/styles/buttons.scss';
+@import './assets/styles/typography';
+// @use './assets/styles/variables.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+    h2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $text-color;
+      font-family: $primary-font;
+    }
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+    h1{
+      font-family: $secondary-font;
+      color: $primary-color;
+      font-size: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-family: $primary-font;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+    button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wave_back{
+    height: 50vh;
+    width: 100vw;
+    background-color: $form-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form{
+    width: 30vw;
+    height: 50vh;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+      &__name{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        padding-top: 50px;
+      }
+      .form__name-input{
+        margin-bottom: 10px;
+        border: 2px solid black;
+        width: 200px;
+        height: 30px;
+      }
+      &__email{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .form__email-input{
+        margin-bottom: 40px;
+        border: 2px solid black;
+        width: 200px;
+        height: 30px;
+      }
+      &__submit-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+  }
